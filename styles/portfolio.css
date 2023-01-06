@@ -1,108 +1,129 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 /* header */
-.all{
-    text-align: right;
-    padding: 150px 260px 100px 0;
-    background-image:url("/images/banner/banner3.png");
-    background-size: width 1600px;
-    height: 808px;
-    background-size: contain;
-    background-repeat: no-repeat;
+.all {
+  text-align: right;
+  padding: 150px 260px 100px 0;
+  background-image: url("/images/banner/banner3.png");
+  background-size: width 1600px;
+  height: 808px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.all-title{
-    font-size: 45px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    color: white;
+.all-title {
+  font-size: 45px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  color: white;
 }
-.all-description{
-    font-size: 11px;
-    margin-bottom: 40px;
-    color: aliceblue;
-    height: 40px;
-    
+.all-description {
+  font-size: 11px;
+  margin-bottom: 40px;
+  color: aliceblue;
+  height: 40px;
 }
-.btn-primary{
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 10px;
-    color: rgb(10, 167, 229);
-    font-weight: 700;
+.btn-primary {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  color: rgb(10, 167, 229);
+  font-weight: 700;
 }
 /* Failure Section */
-.failure{
-    display: flex;
-    margin-bottom: 70px;
+.failure {
+  display: flex;
+  margin-bottom: 70px;
 }
-.failure-list{
-    text-align: left;
-    margin-left: 150px;
-    margin-top: 300px;
+.failure-list {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 300px;
 }
-.failure-title{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 750;
+.failure-title {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
 }
-.failure-description{
-    margin-top: 15px;
-    font-size: 13px;
-    color: gray;
+.failure-description {
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
 }
-.person{
-    margin-left: 120px;
+.person {
+  margin-left: 120px;
 }
 /* Achivement Section */
-.achivement{
-    display: flex;
-    margin-bottom: 70px;
+.achivement {
+  display: flex;
+  margin-bottom: 70px;
 }
-.achivement-list{
-    text-align: left;
-    margin-left: 150px;
-    margin-top: 200px;
+.achivement-list {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 200px;
 }
-.achivement-title{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 750;
+.achivement-title {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
 }
-.achivement-description{
-    margin-top: 15px;
-    font-size: 13px;
-    color: gray;
+.achivement-description {
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
 }
-.person{
-    margin-left: 120px;
-    padding-top: 100px;
+.person {
+  margin-left: 120px;
+  padding-top: 100px;
 }
 /* plans section */
-.plan-head{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 750;
-    margin: 80px;
-    text-align: center;
+.plan-head {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
+  margin: 80px;
+  text-align: center;
 }
-.learning-plan{
-    display: flex;
+.learning-plan {
+  display: flex;
 }
-.learning{
-    margin-left: 150px;
+.learning {
+  margin-left: 150px;
 }
-.learning-title{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 750;
-    text-align: center;
+.learning-title {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
+  text-align: center;
 }
-.learning-description{
-    margin-top: 10px;
-    font-size: 14px;
-    color: rgb(133, 131, 131);
-    text-align: center;
-    font-weight: 500;
+.learning-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgb(133, 131, 131);
+  text-align: center;
+  font-weight: 500;
+}
+/* contact section */
+.call {
+  padding: 200px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px 150px;
+  padding: 100px;
+  border-radius: 8px;
+}
+.contact-title {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 750;
+  color: white;
+}
+.call .btn-primary {
+  margin-top: 20px;
+}
+.contact {
 }

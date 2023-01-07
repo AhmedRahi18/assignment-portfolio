@@ -27,9 +27,9 @@
   background-color: white;
   border: none;
   border-radius: 3px;
-  padding: 10px;
-  color: rgb(10, 167, 229);
-  font-weight: 700;
+  padding: 15px;
+  color: rgb(9, 147, 201);
+  font-weight: 750;
 }
 /* Failure Section */
 .failure {
@@ -125,5 +125,47 @@
 .call .btn-primary {
   margin-top: 20px;
 }
-.contact {
+/* footer setion */
+footer {
+  display: flex;
+  padding: 140px;
+  background-color: black;
+}
+.email {
+  padding-left: 300px;
+}
+.email-title {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.end {
+  color: white;
+}
+.end-title {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.end-description {
+  color: rgb(144, 142, 142);
+  margin: 18px 0px;
+}
+.btn-subscribe {
+  color: white;
+  background-color: #005fac;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.email-box {
+  background-color: black;
+  color: rgb(145, 143, 143);
+  padding: 12px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.icon-img {
+  padding-left: 10px;
 }

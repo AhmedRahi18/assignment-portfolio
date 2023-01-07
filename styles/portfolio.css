@@ -4,10 +4,10 @@
 /* header */
 .all {
   text-align: right;
-  padding: 150px 260px 100px 0;
-  background-image: url("/images/banner/banner3.png");
+  padding: 150px 150px 100px 0;
+  background-image: url("../images/banner/banner3.png");
   background-size: width 1600px;
-  height: 808px;
+  height: 408px;
   background-size: contain;
   background-repeat: no-repeat;
 }

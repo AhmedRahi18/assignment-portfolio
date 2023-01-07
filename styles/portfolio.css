@@ -2,22 +2,22 @@
   margin: 0px;
 }
 /* header */
-.all {
+.banner {
   text-align: right;
   padding: 150px 150px 100px 0;
-  background-image: url("./images/banner/banner3.png");
+  background-image: url("../images/banner/banner3.png");
   background-size: width 1600px;
   height: 408px;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.all-title {
+.banner-title {
   font-size: 45px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 20px;
   color: white;
 }
-.all-description {
+.banner-description {
   font-size: 11px;
   margin-bottom: 40px;
   color: aliceblue;
@@ -109,7 +109,7 @@
 .call {
   padding: 200px;
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
-    url("./images/watch.png");
+    url("../images/watch.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 60px 150px;
